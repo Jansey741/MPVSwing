@@ -1,4 +1,3 @@
-package main;
 import javax.swing.SwingUtilities;
 
 import model.LoginM;
