@@ -15,7 +15,7 @@ public class Main {
 			public void run() {
 				LoginV loginV = new LoginV();
 				loginV.setPresenter(new LoginP( loginV, new LoginM() ));
-				//
+				
 			}
 		});
 
