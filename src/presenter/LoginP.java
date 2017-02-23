@@ -13,10 +13,10 @@ public class LoginP {
 	    }
 
 	    public void login(String pass) {
-	        String result = "Helytelen jelszó";
+	        String result = "Helyestelen jelszó";
 	        
 	        if (loginM.getPassword().equals(pass)) {
-	            result = "Helyes jelszó";
+	            result = "Talán Helyes jelszó";
 	        }
 	        loginV.updateStatusLabel(result);
 	    }
