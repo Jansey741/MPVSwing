@@ -44,7 +44,7 @@ public class LoginV {
 	        topBox.add(loginButton);
 	        
 	        JFrame frame = new JFrame("MVP Swing Keret elsõ lépések");
-	        ((JPanel)frame.getContentPane()).setBackground(Color.white);
+	        ((JPanel)frame.getContentPane()).setBackground(Color.cyan);
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        frame.add(topBox, BorderLayout.NORTH);
 	        frame.pack();
