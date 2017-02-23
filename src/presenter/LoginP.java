@@ -16,11 +16,8 @@ public class LoginP {
 	        String result = "Helyestelen jelszó";
 	        
 	        if (loginM.getPassword().equals(pass)) {
-<<<<<<< HEAD
+
 	            result = "Helyes jelszó!";
-=======
-	            result = "Talán Helyes jelszó";
->>>>>>> b3500107c1258a9dbe360091941e8bf75ca7e93e
 	        }
 	        loginV.updateStatusLabel(result);
 	    }
