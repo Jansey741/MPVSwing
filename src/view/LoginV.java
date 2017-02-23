@@ -25,9 +25,9 @@ public class LoginV {
 	    }
 	    
 	    private void createUI() {
-	        statusLabel = new JLabel("Jelszó: ");
+	        statusLabel = new JLabel("Válasz: ");
 	        inputField = new JTextField(20);
-	        JButton loginButton = new JButton("Login");
+	        JButton loginButton = new JButton("Igen jöhet!");
 	        
 	        loginButton.addActionListener(new ActionListener() {				
 				@Override
@@ -43,7 +43,7 @@ public class LoginV {
 	        topBox.add(Box.createHorizontalStrut(5));
 	        topBox.add(loginButton);
 	        
-	        JFrame frame = new JFrame("MVP Swing Keret elsõ lépések");
+	        JFrame frame = new JFrame("Jöhet a szörnyes Társas?");
 	        ((JPanel)frame.getContentPane()).setBackground(Color.cyan);
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        frame.add(topBox, BorderLayout.NORTH);
