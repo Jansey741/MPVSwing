@@ -12,6 +12,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import presenter.Constants;
 import presenter.LoginP;
 
 public class LoginV {
@@ -25,9 +26,9 @@ public class LoginV {
 	    }
 	    
 	    private void createUI() {
-	        statusLabel = new JLabel("Válasz: ");
+	        statusLabel = new JLabel("VÃ¡lasz: ");
 	        inputField = new JTextField(20);
-	        JButton loginButton = new JButton("Igen jöhet!");
+	        JButton loginButton = new JButton( Constants.C_IGEN_JOHET );
 	        
 	        loginButton.addActionListener(new ActionListener() {				
 				@Override
@@ -43,7 +44,7 @@ public class LoginV {
 	        topBox.add(Box.createHorizontalStrut(5));
 	        topBox.add(loginButton);
 	        
-	        JFrame frame = new JFrame("Jöhet a szörnyes Társas?");
+	        JFrame frame = new JFrame( Constants.C_JOHET_A_SZORNYES_TARSAS );
 	        ((JPanel)frame.getContentPane()).setBackground(Color.cyan);
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        frame.add(topBox, BorderLayout.NORTH);

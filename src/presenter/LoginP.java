@@ -13,11 +13,10 @@ public class LoginP {
 	    }
 
 	    public void login(String pass) {
-	        String result = "Helyes válasz!";
+	        String result = Constants.C_HELYES_VALASZ;
 	        
-	        if (loginM.getPassword().equals(pass)) {
-
-	            result = "Ez is helyes válasz!";
+	        if ( pass.equals(loginM.getPassword())  ) {
+	            result = Constants.C_EZ_IS_HELYES_VALASZ;
 	        }
 	        loginV.updateStatusLabel(result);
 	    }
