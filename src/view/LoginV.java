@@ -26,7 +26,7 @@ public class LoginV {
 	    }
 	    
 	    private void createUI() {
-	        statusLabel = new JLabel("Válasz: ");
+	        statusLabel = new JLabel("Mi a válasz?: ");
 	        inputField = new JTextField(20);
 	        JButton loginButton = new JButton( Constants.C_IGEN_JOHET );
 	        
